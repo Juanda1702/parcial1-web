@@ -1,11 +1,4 @@
-import ListaAutores from "@/components/ListaAutores";
-
-function pageAuthors() {
-  return (
-    <div>
-      <ListaAutores></ListaAutores>
-    </div>
-  );
+import AuthorsList from "@/components/AuthorsList";
+export default function Page() {
+  return <AuthorsList />;
 }
-
-export default pageAuthors;
